@@ -1,0 +1,166 @@
+﻿
+body
+{
+  background-image: url('../images/bg-pattern.jpg');
+  margin: 0;
+  font-family: Arial;
+  font-size: 32px;
+}
+
+li{ list-style-image: none; list-style-type: none;}
+
+ul{ padding: 0px;}
+
+li a
+{
+  display: block;
+  padding: 28px 0 28px 0px;
+  text-decoration: none;
+  color: White;
+  position:relative;
+}
+
+
+li a .thumbnail
+{
+  width: 70px;
+  padding: 7px 0px 5px 0px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+li a .thumbnail img
+{
+  width: 32px;
+  height: 32px;
+  display: block;
+  margin: 0 auto;
+}
+
+li a .texts
+{
+  display: inline-block;
+  width: 85%;
+}
+
+li a .texts span{ display: block;}
+
+li a .texts .hyperlink
+{
+  color: #92DAFF;
+  font-size: 28px;  
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 2px;
+}
+
+li .border
+{
+  background-position: 0 -508px; 
+  background-repeat: repeat-x;
+  height: 4px;
+  clear:both;
+}
+
+
+header
+{
+  background-position: 0 0; height: 106px;
+  background-repeat: repeat-x;
+  height: 106px;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  top: 0px;
+}
+footer
+{
+  height: 150px;
+}
+
+nav
+{
+  margin-top: 107px;
+}
+
+#top-websites
+{
+  width: 356px;
+  height: 67px;
+  background-position: -316px 0;
+  background-repeat:no-repeat;
+  margin: 20px 0px 0 11px;
+}
+
+#results-by-bing
+{
+  width: 167px;
+  height: 27px;
+  background-position: -97px 0;
+  
+  background-repeat:no-repeat;
+  margin: 35px 0 0 26px;
+}
+
+#more-on-bing
+{
+  float: right;
+  background-position: 0 -232px;
+  background-repeat: repeat-x;
+  height: 67px;
+  color: White;
+  border-radius: 20px;
+  -webkit-border-radius: 30px;
+  margin: 15px 30px 15px 15px;
+  border: 0;
+  padding: 0 24px 0 36px;
+  text-shadow: 0px -2px black;
+  font-size:32px;
+}
+#more-on-bing #tm
+{
+  font-size: 18px;
+  vertical-align: top;
+  display: inline-block;
+  padding-top: 2px;
+}
+#more-on-bing #arrow
+{
+  float:right;
+  background-position: 0 -156px; 
+  display:block;
+  width:15px;
+  height: 26px;
+  margin: 7px 0 0 17px;
+}
+
+#official
+{
+  background-position: 0 0; 
+  background-repeat:repeat-y;
+  display: block;
+  width:47px;
+  height: 100%;
+  position:absolute;
+  right:0;
+  top:0;
+}
+
+#official span
+{
+  background-position: 0 -349px; 
+  background-repeat:no-repeat;
+  width:21px;
+  height:110px;
+  display:block;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+header, #more-on-bing, #more-on-bing #arrow, #official span, li .border{background-image: url('../images/sprite/narrow.png');}
+
+#top-websites, #results-by-bing, #official{background-image:url('../images/sprite/wide.png'); }
