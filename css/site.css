@@ -7,7 +7,13 @@ body
   font-size: 32px;
 }
 
-li{ list-style-image: none; list-style-type: none;}
+li 
+{
+  list-style-image: none; 
+  list-style-type: none;
+  border-bottom: 2px solid #212121;
+  box-shadow: 0 2px 0 0 #4D4D4D;
+}
 
 ul{ padding: 0px;}
 
@@ -53,15 +59,6 @@ li a .texts .hyperlink
   text-overflow: ellipsis;
   margin-top: 2px;
 }
-
-li .border
-{
-  background-position: 0 -508px; 
-  background-repeat: repeat-x;
-  height: 4px;
-  clear:both;
-}
-
 
 header
 {
@@ -161,6 +158,6 @@ nav
   left: 0;
 }
 
-header, #more-on-bing, #more-on-bing #arrow, #official span, li .border{background-image: url('../images/sprite/narrow.png');}
+header, #more-on-bing, #more-on-bing #arrow, #official span{background-image: url('../images/sprite/narrow.png');}
 
 #top-websites, #results-by-bing, #official{background-image:url('../images/sprite/wide.png'); }
