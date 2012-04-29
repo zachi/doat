@@ -16,8 +16,6 @@ TopWebsite.prototype.toHtmlElement = function (isFirst) {
       html += this.getOfficialHtml();
     }
   html += '</a>';
-  
-  html += '<div class="border"></div>';
   li.innerHTML = html;
   return li;
 }
